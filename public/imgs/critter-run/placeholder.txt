@@ -1,0 +1,7 @@
+This directory will contain the game images:
+- critter.png (the raccoon character)
+- trashcan.png (the obstacle)
+- gem.png (collectible)
+- road.png (ground)
+- city.png (background)
+
