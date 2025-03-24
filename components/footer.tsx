@@ -10,22 +10,22 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="relative h-8 w-8">
+            <div className="flex items-center space-x-3">
+              <div className="relative h-10 w-10">
                 <Image
                   src="/logo/icon-only.png"
                   alt="CritterCodes Logo"
-                  width={32}
-                  height={32}
+                  width={40}
+                  height={40}
                   className="dark:invert-0 invert"
                 />
               </div>
-              <div className="relative h-5 w-32">
+              <div className="relative h-6 w-40">
                 <Image
                   src="/logo/text-only.png"
                   alt="CritterCodes"
-                  width={128}
-                  height={20}
+                  width={160}
+                  height={24}
                   className="dark:invert-0 invert"
                 />
               </div>

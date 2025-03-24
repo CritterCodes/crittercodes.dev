@@ -13,7 +13,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
             "name": "CritterCodes - Jacob Engel",
-            "image": "https://crittercodes.dev/logo/full-logo.png",
+            "image": "https://crittercodes.dev/imgs/headshot.jpg",
             "url": "https://crittercodes.dev",
             "telephone": "(918) 714-9569",
             "address": {

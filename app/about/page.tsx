@@ -27,11 +27,12 @@ export default function AboutPage() {
         <div className="relative aspect-square max-w-md mx-auto lg:mx-0">
           <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/20 to-primary/5 animate-pulse"></div>
           <Image
-            src="/placeholder.svg?height=400&width=400"
+            src="/imgs/headshot.jpg"
             alt="Jacob Engel - Fort Smith Web Developer"
             width={400}
             height={400}
             className="rounded-xl object-cover relative z-10"
+            priority
           />
           <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-muted rounded-xl border flex items-center justify-center">
             <Terminal className="w-12 h-12 text-primary" />

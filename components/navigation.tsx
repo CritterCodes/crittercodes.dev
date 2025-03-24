@@ -46,9 +46,9 @@ export default function Navigation() {
       )}
     >
       <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="relative h-8 w-8">
+        <div className="flex h-20 items-center justify-between">
+          <Link href="/" className="flex items-center space-x-1">
+            <div className="relative h-12 w-12">
               <Image
                 src="/logo/icon-only.png"
                 alt="CritterCodes Logo"
@@ -56,7 +56,7 @@ export default function Navigation() {
                 className="object-contain dark:invert-0 invert"
               />
             </div>
-            <div className="relative h-5 w-32 hidden sm:block">
+            <div className="relative h-7 w-44 hidden sm:block">
               <Image
                 src="/logo/text-only.png"
                 alt="CritterCodes"
@@ -72,7 +72,7 @@ export default function Navigation() {
                 key={item.path}
                 href={item.path}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-primary",
+                  "text-base font-medium transition-colors hover:text-primary",
                   pathname === item.path ? "text-primary" : "text-muted-foreground",
                 )}
                 onClick={closeMenu}
@@ -104,7 +104,7 @@ export default function Navigation() {
                 key={item.path}
                 href={item.path}
                 className={cn(
-                  "text-sm font-medium py-2 transition-colors hover:text-primary",
+                  "text-base font-medium py-2 transition-colors hover:text-primary",
                   pathname === item.path ? "text-primary" : "text-muted-foreground",
                 )}
                 onClick={closeMenu}
