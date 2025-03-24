@@ -1,6 +1,13 @@
 import { ProjectCard } from "@/components/project-card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { projects } from "../../data/projects"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Portfolio | Fort Smith Web Developer & Business Automation Projects",
+  description:
+    "Explore web development and business automation projects by Jacob Engel, a Fort Smith, Arkansas based developer specializing in custom websites, e-commerce, and process automation.",
+}
 
 export default function PortfolioPage() {
   const clientProjects = projects.filter((project) => project.type === "client")
@@ -19,9 +26,10 @@ export default function PortfolioPage() {
   return (
     <div className="container mx-auto px-4 py-16">
       <div className="space-y-4 text-center mb-12">
-        <h1 className="text-4xl font-bold tracking-tight">Portfolio</h1>
+        <h1 className="text-4xl font-bold tracking-tight">Web Development Portfolio</h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Explore my client projects and personal applications focused on business process automation
+          Explore my client projects and personal applications focused on business process automation and web
+          development in Fort Smith and beyond
         </p>
       </div>
 
@@ -64,6 +72,38 @@ export default function PortfolioPage() {
               </div>
             ),
         )}
+      </div>
+
+      <div className="mt-24 space-y-8 max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold text-center">Fort Smith Web Development Services</h2>
+        <div className="prose dark:prose-invert max-w-none">
+          <p>
+            Looking for a web developer in Fort Smith, Arkansas? I offer comprehensive web development services tailored
+            to your business needs:
+          </p>
+          <ul>
+            <li>
+              <strong>Custom Website Development</strong> - Modern, responsive websites that look great on all devices
+            </li>
+            <li>
+              <strong>E-commerce Development</strong> - Online stores with secure payment processing and inventory
+              management
+            </li>
+            <li>
+              <strong>Business Automation</strong> - Custom applications to streamline your workflows and save time
+            </li>
+            <li>
+              <strong>Web Application Development</strong> - Interactive web apps for specific business needs
+            </li>
+            <li>
+              <strong>Local SEO</strong> - Help your Fort Smith business get found online
+            </li>
+          </ul>
+          <p>
+            Whether you're a small business, non-profit organization, or entrepreneur in Fort Smith or Northwest
+            Arkansas, I can help you establish a strong online presence. Contact me today to discuss your project!
+          </p>
+        </div>
       </div>
     </div>
   )

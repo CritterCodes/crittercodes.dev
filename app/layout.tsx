@@ -9,9 +9,48 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "CritterCodes | Jacob Engel - Full Stack Developer",
+  title: "CritterCodes | Fort Smith Web Developer & Business Automation Expert",
   description:
-    'Portfolio of Jacob "Critter" Engel, a full-stack developer specializing in business process automation using Next.js, React, Node.js, Express, and MongoDB.',
+    'Jacob "Critter" Engel is a Fort Smith, Arkansas based full-stack developer specializing in web development, business process automation, and e-commerce solutions using Next.js, React, Node.js, and MongoDB.',
+  keywords: [
+    "Fort Smith web developer",
+    "Arkansas web design",
+    "business automation",
+    "process automation",
+    "Fort Smith web design",
+    "e-commerce developer",
+    "React developer Arkansas",
+    "Next.js developer",
+    "Fort Smith business consultant",
+    "custom web applications",
+    "Jacob Engel developer",
+    "CritterCodes",
+  ],
+  authors: [{ name: "Jacob Engel", url: "https://crittercodes.dev" }],
+  creator: "Jacob Engel",
+  publisher: "CritterCodes",
+  formatDetection: {
+    email: false,
+    address: true,
+    telephone: true,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://crittercodes.dev",
+    title: "CritterCodes | Fort Smith Web Developer & Business Automation Expert",
+    description: "Fort Smith based web developer specializing in business process automation and e-commerce solutions",
+    siteName: "CritterCodes",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CritterCodes | Fort Smith Web Developer",
+    description: "Fort Smith based web developer specializing in business process automation",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({

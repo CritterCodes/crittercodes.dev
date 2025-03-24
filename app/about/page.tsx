@@ -3,6 +3,13 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Briefcase, Code, GraduationCap, Terminal, MapPin, Gem } from "lucide-react"
 import Timeline from "@/components/timeline"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About Jacob Engel | Fort Smith Web Developer & Business Automation Expert",
+  description:
+    "Learn about Jacob 'Critter' Engel, a Fort Smith, Arkansas based full-stack developer with expertise in business process automation, e-commerce, and web development.",
+}
 
 export default function AboutPage() {
   // Calculate age based on birthdate
@@ -21,7 +28,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/20 to-primary/5 animate-pulse"></div>
           <Image
             src="/placeholder.svg?height=400&width=400"
-            alt="Jacob Engel - Critter"
+            alt="Jacob Engel - Fort Smith Web Developer"
             width={400}
             height={400}
             className="rounded-xl object-cover relative z-10"
@@ -31,12 +38,12 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="space-y-6">
-          <Badge className="px-3 py-1 text-sm">Full-Stack Developer</Badge>
+          <Badge className="px-3 py-1 text-sm">Fort Smith Web Developer</Badge>
           <h1 className="text-4xl font-bold tracking-tight">Jacob "Critter" Engel</h1>
           <p className="text-xl text-muted-foreground">
-            I'm a {age}-year-old passionate full-stack developer and jewelry business owner with a love for
-            problem-solving and design. I specialize in business process automation and e-commerce solutions, creating
-            efficient systems that help businesses streamline their operations.
+            I'm a {age}-year-old passionate full-stack developer and jewelry business owner based in Fort Smith,
+            Arkansas. I specialize in business process automation and e-commerce solutions, creating efficient systems
+            that help local businesses streamline their operations.
           </p>
           <div className="grid grid-cols-2 gap-4 pt-4">
             <Card>
@@ -174,7 +181,7 @@ export default function AboutPage() {
           <p>
             My journey into web development began in 2021 when I completed my first course with FreeCodeCamp.org,
             earning a certification in Responsive Web Design. This foundation sparked my passion for creating digital
-            solutions.
+            solutions for businesses in the Fort Smith area.
           </p>
           <p>
             In 2022, I applied my newfound skills to my jewelry business, Engel Fine Design, by building and managing a
@@ -189,15 +196,50 @@ export default function AboutPage() {
             automated manual Excel processes, saving my client approximately 20 hours per month.
           </p>
           <p>
-            Since then, I've designed websites for two tattoo artists and two non-profit organizations. For my own
-            jewelry business, I built a repair ticketing application that streamlines workflow, reduces liability
-            through photo documentation, and improves customer service with printed repair tickets.
+            Since then, I've designed websites for two tattoo artists and two non-profit organizations in Fort Smith.
+            For my own jewelry business, I built a repair ticketing application that streamlines workflow, reduces
+            liability through photo documentation, and improves customer service with printed repair tickets.
           </p>
           <p>
-            I bring a unique perspective to web development through my experience as a business owner. I understand
-            firsthand the challenges businesses face and how technology can solve real-world problems. My dual
-            background in jewelry design and web development gives me a keen eye for detail and aesthetics while
+            I bring a unique perspective to web development through my experience as a business owner in Fort Smith. I
+            understand firsthand the challenges local businesses face and how technology can solve real-world problems.
+            My dual background in jewelry design and web development gives me a keen eye for detail and aesthetics while
             maintaining functionality.
+          </p>
+        </div>
+      </div>
+
+      <div className="mt-24 space-y-8 max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold text-center">Fort Smith Web Development Services</h2>
+        <div className="prose dark:prose-invert max-w-none">
+          <p>
+            As a Fort Smith web developer, I offer a range of services to help local businesses establish and enhance
+            their online presence:
+          </p>
+          <ul>
+            <li>
+              <strong>Custom Website Development</strong> - Tailored websites built with modern technologies like React
+              and Next.js
+            </li>
+            <li>
+              <strong>E-commerce Solutions</strong> - Online stores built on Shopify or custom platforms
+            </li>
+            <li>
+              <strong>Business Process Automation</strong> - Custom applications to streamline your workflows
+            </li>
+            <li>
+              <strong>Web Application Development</strong> - Interactive web apps for specific business needs
+            </li>
+            <li>
+              <strong>Website Maintenance</strong> - Ongoing support and updates for existing websites
+            </li>
+            <li>
+              <strong>SEO Optimization</strong> - Improving your website's visibility in search engines
+            </li>
+          </ul>
+          <p>
+            I'm committed to helping Fort Smith businesses thrive in the digital landscape. Whether you need a simple
+            website or a complex web application, I'm here to help you achieve your goals.
           </p>
         </div>
       </div>

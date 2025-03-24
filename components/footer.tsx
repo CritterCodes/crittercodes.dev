@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Github, Linkedin, Mail, Facebook } from "lucide-react"
+import { Github, Linkedin, Mail, Facebook, MapPin, Phone } from "lucide-react"
 import Image from "next/image"
 
 export default function Footer() {
@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              Full-stack development and business process automation solutions.
+              Fort Smith web development and business process automation solutions.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" asChild>
@@ -58,6 +58,18 @@ export default function Footer() {
                   <span className="sr-only">Email</span>
                 </Link>
               </Button>
+            </div>
+            <div className="pt-4">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <MapPin className="h-4 w-4" />
+                <span>Fort Smith, Arkansas</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
+                <Phone className="h-4 w-4" />
+                <a href="tel:+19187149569" className="hover:text-primary">
+                  (918) 714-9569
+                </a>
+              </div>
             </div>
           </div>
           <div>
@@ -100,17 +112,17 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/portfolio" className="text-sm text-muted-foreground hover:text-foreground">
-                  React Component Libraries
+                  E-commerce Solutions
                 </Link>
               </li>
               <li>
                 <Link href="/portfolio" className="text-sm text-muted-foreground hover:text-foreground">
-                  Game Development
+                  Custom Web Applications
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground">
-                  Consulting
+                  Fort Smith Web Design
                 </Link>
               </li>
             </ul>
@@ -127,7 +139,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-6 border-t text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} CritterCodes. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} CritterCodes. All rights reserved. | Fort Smith Web Developer & Business
+            Automation Expert
+          </p>
         </div>
       </div>
     </footer>
