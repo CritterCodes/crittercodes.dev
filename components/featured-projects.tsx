@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowRight, ExternalLink, Github } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { projects } from "@/data/projects"
+import { projects } from "../data/projects"
 
 export default function FeaturedProjects() {
   const sectionRef = useRef<HTMLDivElement>(null)

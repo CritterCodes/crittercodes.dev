@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: "CritterCodes | Jacob Engel - Full Stack Developer",
   description:
     'Portfolio of Jacob "Critter" Engel, a full-stack developer specializing in business process automation using Next.js, React, Node.js, Express, and MongoDB.',
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -35,6 +34,3 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'

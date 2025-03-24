@@ -1,6 +1,6 @@
 import { ProjectCard } from "@/components/project-card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { projects } from "@/data/projects"
+import { projects } from "../../data/projects"
 
 export default function PortfolioPage() {
   const clientProjects = projects.filter((project) => project.type === "client")

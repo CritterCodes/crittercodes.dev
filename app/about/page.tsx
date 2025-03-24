@@ -20,7 +20,7 @@ export default function AboutPage() {
         <div className="relative aspect-square max-w-md mx-auto lg:mx-0">
           <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/20 to-primary/5 animate-pulse"></div>
           <Image
-            src="/jacob_engel_headshot.jpg?height=400&width=400"
+            src="/placeholder.svg?height=400&width=400"
             alt="Jacob Engel - Critter"
             width={400}
             height={400}

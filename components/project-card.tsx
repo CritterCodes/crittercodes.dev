@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
-import type { Project } from "@/types/project"
+import type { Project } from "../types/project"
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
