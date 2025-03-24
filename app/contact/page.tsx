@@ -31,7 +31,7 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-medium">Phone</h3>
-                <p className="text-sm text-muted-foreground">(555) 123-4567</p>
+                <p className="text-sm text-muted-foreground">(918) 714-9569</p>
               </CardContent>
             </Card>
             <Card className="md:col-span-2">
