@@ -3,6 +3,9 @@ import { LeadFunnel } from "@/components/lead-funnel"
 import { Card, CardContent } from "@/components/ui/card"
 import { Mail, MapPin, Phone } from "lucide-react"
 import type { Metadata } from "next"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Contact Fort Smith Web Developer | CritterCodes",
@@ -65,6 +68,57 @@ export default function ContactPage() {
         <div>
           <h2 className="text-2xl font-bold mb-6">Find Your Perfect Solution</h2>
           <LeadFunnel />
+        </div>
+      </div>
+
+      <div className="mt-16 border-t pt-12">
+        <h2 className="text-2xl font-bold mb-6 text-center">Looking For Opportunities</h2>
+        <div className="max-w-3xl mx-auto bg-muted rounded-xl p-6 space-y-4">
+          <p className="text-center">
+            I'm currently seeking junior developer positions with a focus on business automation and web application
+            development.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+            <div className="space-y-2">
+              <h3 className="text-lg font-semibold">Preferred Technologies</h3>
+              <ul className="space-y-1">
+                <li className="flex items-center gap-2">
+                  <Badge>Next.js</Badge>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Badge>Node.js</Badge>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Badge>MongoDB</Badge>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Badge>React</Badge>
+                </li>
+              </ul>
+            </div>
+
+            <div className="space-y-2">
+              <h3 className="text-lg font-semibold">Work Preferences</h3>
+              <ul className="space-y-1">
+                <li className="flex items-center gap-2">
+                  <Badge variant="outline">Remote Preferred</Badge>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Badge variant="outline">Open to Hybrid</Badge>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Badge variant="outline">Open to Onsite in Fort Smith area</Badge>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="flex justify-center mt-6">
+            <Button asChild size="lg">
+              <Link href="/resume">View My Resume</Link>
+            </Button>
+          </div>
         </div>
       </div>
 

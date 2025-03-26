@@ -35,6 +35,8 @@ export default function Navigation() {
     { name: "Home", path: "/" },
     { name: "Portfolio", path: "/portfolio" },
     { name: "About", path: "/about" },
+    { name: "Resume", path: "/resume" },
+    { name: "For Recruiters", path: "/for-recruiters" },
     { name: "Contact", path: "/contact" },
   ]
 

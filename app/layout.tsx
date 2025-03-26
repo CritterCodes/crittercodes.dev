@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "CritterCodes | Fort Smith Web Developer & Business Automation Expert",
   description:
-    'Jacob "Critter" Engel is a Fort Smith, Arkansas based full-stack developer specializing in web development, business process automation, and e-commerce solutions using Next.js, React, Node.js, and MongoDB.',
+    'Jacob "Critter" Engel is a Fort Smith, Arkansas based full-stack developer specializing in business process automation, web development, and e-commerce solutions using Next.js, React, Node.js, and MongoDB.',
   keywords: [
     "Fort Smith web developer",
     "Arkansas web design",
@@ -21,10 +21,13 @@ export const metadata: Metadata = {
     "e-commerce developer",
     "React developer Arkansas",
     "Next.js developer",
+    "Node.js developer",
+    "MongoDB developer",
     "Fort Smith business consultant",
     "custom web applications",
     "Jacob Engel developer",
     "CritterCodes",
+    "business process automation",
   ],
   authors: [{ name: "Jacob Engel", url: "https://crittercodes.dev" }],
   creator: "Jacob Engel",
@@ -44,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CritterCodes | Fort Smith Web Developer",
+    title: "CritterCodes | Fort Smith Web Developer & Business Automation Expert",
     description: "Fort Smith based web developer specializing in business process automation",
   },
   robots: {

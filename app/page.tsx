@@ -9,48 +9,48 @@ export default function Home() {
     <>
       <Script id="local-business-schema" type="application/ld+json">
         {`
-          {
-            "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "CritterCodes - Jacob Engel",
-            "image": "https://crittercodes.dev/imgs/headshot.jpg",
-            "url": "https://crittercodes.dev",
-            "telephone": "(918) 714-9569",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "",
-              "addressLocality": "Fort Smith",
-              "addressRegion": "AR",
-              "postalCode": "",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 35.3860,
-              "longitude": -94.3985
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday"
-              ],
-              "opens": "09:00",
-              "closes": "17:00"
-            },
-            "sameAs": [
-              "https://github.com/CritterCodes",
-              "https://www.linkedin.com/in/critterthedesigner/",
-              "https://www.facebook.com/critterthedesigner"
-            ],
-            "priceRange": "$$",
-            "servesCuisine": "Web Development, Business Automation, E-commerce Solutions",
-            "description": "Fort Smith based web developer specializing in business process automation and e-commerce solutions using Next.js, React, Node.js, and MongoDB."
-          }
-        `}
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "CritterCodes - Jacob Engel",
+      "image": "https://crittercodes.dev/imgs/headshot.jpg",
+      "url": "https://crittercodes.dev",
+      "telephone": "(918) 714-9569",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Fort Smith",
+        "addressRegion": "AR",
+        "postalCode": "",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.3860,
+        "longitude": -94.3985
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://github.com/CritterCodes",
+        "https://www.linkedin.com/in/critterthedesigner/",
+        "https://www.facebook.com/critterthedesigner"
+      ],
+      "priceRange": "$$",
+      "servesCuisine": "Web Development, Business Automation, E-commerce Solutions",
+      "description": "Fort Smith based web developer specializing in business process automation and web application development using Next.js, Node.js, MongoDB, and React. Creating solutions that streamline operations and solve real-world business problems."
+    }
+  `}
       </Script>
       <div className="container mx-auto px-4 py-8">
         <Hero />

@@ -8,7 +8,13 @@ import { cn } from "@/lib/utils"
 
 export default function Hero() {
   const [text, setText] = useState("")
-  const phrases = ["Full-Stack Developer", "Jewelry Designer", "Business Process Automation", "Problem Solver"]
+  const phrases = [
+    "Business Automation Specialist",
+    "Full-Stack Developer",
+    "Next.js & Node.js Expert",
+    "Problem Solver",
+    "MongoDB Developer",
+  ]
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const [typingSpeed, setTypingSpeed] = useState(100)
@@ -78,8 +84,9 @@ export default function Hero() {
               <p className="text-2xl md:text-3xl font-medium typing-animation">{text}</p>
             </div>
             <p className="text-xl text-muted-foreground">
-              I build modern web applications and automate business processes, applying my design skills and
-              problem-solving approach from my jewelry business to help companies work smarter.
+              I specialize in business process automation and web application development, combining technical expertise
+              with practical business insights to create solutions that streamline operations and solve real-world
+              problems.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
@@ -119,24 +126,24 @@ export default function Hero() {
                 <span className="text-amber-500">"Jacob 'Critter' Engel"</span>;
                 <br />
                 {"    "}this.<span className="text-purple-500">skills</span> = [
-                <span className="text-amber-500">"Node.js"</span>, <span className="text-amber-500">"React"</span>,{" "}
-                <span className="text-amber-500">"MongoDB"</span>, <span className="text-amber-500">"Shopify"</span>];
+                <span className="text-amber-500">"Next.js"</span>, <span className="text-amber-500">"Node.js"</span>,{" "}
+                <span className="text-amber-500">"MongoDB"</span>, <span className="text-amber-500">"React"</span>];
                 <br />
                 {"    "}this.<span className="text-purple-500">passion</span> ={" "}
-                <span className="text-amber-500">"Problem Solving & Design"</span>;
+                <span className="text-amber-500">"Business Automation & Problem Solving"</span>;
                 <br />
                 {"  }"}
                 {"}"}
                 <br />
                 <br />
                 {"  "}
-                <span className="text-blue-500">createSolution</span>(<span className="text-purple-500">problem</span>){" "}
-                {"{"}
+                <span className="text-blue-500">createSolution</span>(
+                <span className="text-purple-500">businessProcess</span>) {"{"}
                 <br />
                 {"    "}
                 <span className="text-blue-500">return</span>{" "}
-                <span className="text-amber-500">`Efficient solution for </span>${"{"}problem{"}"}
-                <span className="text-amber-500"> using modern tech stack`</span>;
+                <span className="text-amber-500">`Streamlined solution for </span>${"{"}businessProcess{"}"}
+                <span className="text-amber-500"> saving time and resources`</span>;
                 <br />
                 {"  }"}
                 {"}"}
@@ -144,13 +151,13 @@ export default function Hero() {
                 {"}"}
                 <br />
                 <br />
-                <span className="text-gray-500">// Initialize a new developer</span>
+                <span className="text-gray-500">// Initialize a business automation specialist</span>
                 <br />
                 <span className="text-blue-500">const</span> <span className="text-purple-500">critter</span> ={" "}
                 <span className="text-blue-500">new</span> <span className="text-green-500">Developer</span>();
                 <br />
                 <span className="text-purple-500">critter</span>.<span className="text-blue-500">createSolution</span>(
-                <span className="text-amber-500">"your business needs"</span>);
+                <span className="text-amber-500">"your business processes"</span>);
               </code>
             </pre>
           </div>

@@ -43,8 +43,10 @@ export default function AboutPage() {
           <h1 className="text-4xl font-bold tracking-tight">Jacob "Critter" Engel</h1>
           <p className="text-xl text-muted-foreground">
             I'm a {age}-year-old passionate full-stack developer and jewelry business owner based in Fort Smith,
-            Arkansas. I specialize in business process automation and e-commerce solutions, creating efficient systems
-            that help local businesses streamline their operations.
+            Arkansas. I specialize in business process automation and web application development, creating efficient
+            systems that help businesses streamline their operations. My unique background in jewelry design and
+            business ownership gives me a practical perspective on solving real-world business problems through
+            technology.
           </p>
           <div className="grid grid-cols-2 gap-4 pt-4">
             <Card>
@@ -103,20 +105,20 @@ export default function AboutPage() {
               </h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
-                  <Badge variant="outline">React</Badge>
-                  <span className="text-muted-foreground">Intermediate</span>
-                </li>
-                <li className="flex items-center gap-2">
                   <Badge variant="outline">Next.js</Badge>
                   <span className="text-muted-foreground">Intermediate</span>
                 </li>
                 <li className="flex items-center gap-2">
+                  <Badge variant="outline">React</Badge>
+                  <span className="text-muted-foreground">Intermediate</span>
+                </li>
+                <li className="flex items-center gap-2">
                   <Badge variant="outline">Shopify</Badge>
-                  <span className="text-muted-foreground">Advanced</span>
+                  <span className="text-muted-foreground">Intermediate</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Badge variant="outline">HTML/CSS</Badge>
-                  <span className="text-muted-foreground">Advanced</span>
+                  <span className="text-muted-foreground">Intermediate</span>
                 </li>
               </ul>
             </CardContent>
@@ -142,7 +144,7 @@ export default function AboutPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Badge variant="outline">SQL</Badge>
-                  <span className="text-muted-foreground">Intermediate</span>
+                  <span className="text-muted-foreground">Beginner</span>
                 </li>
               </ul>
             </CardContent>
@@ -155,19 +157,19 @@ export default function AboutPage() {
               </h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
-                  <Badge variant="outline">E-commerce</Badge>
+                  <Badge variant="outline">Client Relationship Management</Badge>
                   <span className="text-muted-foreground">Advanced</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Badge variant="outline">Process Automation</Badge>
-                  <span className="text-muted-foreground">Intermediate</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Badge variant="outline">Problem Solving</Badge>
                   <span className="text-muted-foreground">Advanced</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <Badge variant="outline">Design</Badge>
+                  <Badge variant="outline">Project Management</Badge>
+                  <span className="text-muted-foreground">Intermediate</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Badge variant="outline">Customer Needs Analysis</Badge>
                   <span className="text-muted-foreground">Advanced</span>
                 </li>
               </ul>
@@ -206,6 +208,11 @@ export default function AboutPage() {
             understand firsthand the challenges local businesses face and how technology can solve real-world problems.
             My dual background in jewelry design and web development gives me a keen eye for detail and aesthetics while
             maintaining functionality.
+          </p>
+          <p>
+            Currently, I'm seeking a junior developer position where I can apply my skills in Next.js, Node.js, and
+            MongoDB while continuing to grow as a developer. I'm particularly interested in roles that allow me to focus
+            on business automation and creating solutions that deliver measurable business impact.
           </p>
         </div>
       </div>

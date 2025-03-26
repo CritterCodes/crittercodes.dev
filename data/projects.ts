@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id: 1,
     title: "FabLab Fort Smith",
     description:
-      "A membership-based community makerspace website with authentication, payment processing, and email functionality.",
+      "A membership-based community makerspace website with authentication, payment processing, and email functionality. As CEO, I lead this non-profit organization while developing its digital presence.",
     image: "/imgs/projects/fablab.png",
     category: "Non-Profit",
     technologies: ["Next.js", "Auth.js", "Nodemailer", "Square API", "Tailwind CSS"],
@@ -19,7 +19,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Lambda Society Fort Smith",
     description:
-      "A non-profit organization website featuring donation capabilities, event calendar, volunteer signup, and organization information.",
+      "A non-profit organization website featuring donation capabilities, event calendar with Facebook integration, volunteer signup, and organization information.",
     image: "/imgs/projects/lambda.png",
     category: "Non-Profit",
     technologies: ["Next.js", "React", "Tailwind CSS", "Email.js"],
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Jewelry Repair Ticketing System",
     description:
-      "Custom repair tracking application for Engel Fine Design that manages repair jobs, reduces liability through photo documentation, and improves customer service.",
+      "Custom business automation solution for Engel Fine Design that streamlines workflow, reduces liability through photo documentation, and improves customer service with printed repair tickets.",
     image: "/imgs/projects/repair-efd.png",
     category: "Business Automation",
     technologies: ["Next.js", "Material UI", "MongoDB", "Toolpad Core"],
@@ -103,14 +103,14 @@ export const projects: Project[] = [
     id: 8,
     title: "Business Reporting Application",
     description:
-      "Automated reporting system that generates reports for paying banks and agents, saving the client approximately 20 hours per month.",
+      "Automated reporting system that saved clients 20+ hours per month by transforming manual Excel processes into an instant data processing solution for a payment processing company.",
     image: "/placeholder.svg?height=400&width=600",
     category: "Business Automation",
     technologies: ["React", "Express", "MongoDB", "Material UI"],
     githubUrl: "",
     liveUrl: "",
     detailsUrl: "/portfolio/reporting-app",
-    featured: false,
+    featured: true,
     type: "client",
   },
   {
